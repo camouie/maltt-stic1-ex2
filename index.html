@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>La structure d'un champignon - Flash Card</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>La structure d'un champignon</h1>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <p class="instructions-text"><strong>Comment faire pour identifier un champignon ? </strong><br /> Pour commencer, essayons d'apprendre à reconnaitre
+            les différentes parties qui composent la face visible des champignons grâce à cette flashcard </p>
+        <!-- Image without labels -->
+        <div id="no-labels">
+            <p class="my-0">
+                <img src="assets/images/mushrooms_nolabels.svg" alt="champignons à tubes et à lames"
+                    title="champignons à tubes et à lames" class="flashcard-image">
+            </p>
+
+        </div>
+        <!-- Image with labels -->
+        <div id="yes-labels">
+            <p class="my-0">
+                <img src="assets/images/mushrooms_labels.svg" alt="champignons à tubes et à lames"
+                    title="champignons à tubes et à lames" class="flashcard-image">
+            </p>
+        </div>
+        <!-- Add a counter for the number of times the user looked at the labels -->
+        <div>
+            <button class="switch-button" id="next-btn">Afficher les labels</button>
+        </div>
+        <div class="my-2">
+            Compteur d'essais :
+            <span id="look-times" class="num-counter">0</span>
+        </div>
+    </main>
+    <!-- Footer-->
+    <footer>
+        <p>Les images utilisées proviennent de openclipart.org et sont disponibles sous licence CC0 1.0 Universal. Sources : <a href="https://openclipart.org/detail/24245/champignon" target="_blank">image de gauche</a>, <a href="https://openclipart.org/detail/173450/mushrooms-1" target="_blank">image de droite</a> </p>
+        </p>
+    </footer>
+    <!-- Add the JavaScript file -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

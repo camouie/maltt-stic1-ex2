@@ -8,9 +8,10 @@ body {
 
 header {
     padding: 10px 25px;
-    background-color: #a78b78;
+    background-color: #01156e;
     color: white;
     margin-bottom: 20px;
+    border-bottom: 15px solid #0f33c8;
 }
 
 main {
@@ -24,13 +25,13 @@ main {
 }
 
 .flashcard-image {
-    width: auto;
-    height: 50vh;
+    width: 80vh;
+    height: auto;
 
 }
 
 .switch-button {
-    background: #a78b78;
+    background: #01156e;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
     font-size: 2rem;
@@ -42,7 +43,7 @@ main {
 }
 
 .switch-button:hover {
-    background: #716156;
+    background: #0f33c8;
     text-decoration: none;
 }
 
@@ -54,9 +55,10 @@ main {
 }
 
 footer {
-    background-color: #f1edea;
+    background-color: #01156e;
     padding: 15px 30px;
-    border-top: 1px solid #a78b78;
+    border-top: 15px solid #0f33c8;
+    color: #ffffff;
 }
 
 .my-2 {
